@@ -76,7 +76,7 @@ export default function GtaRelease() {
 
           <a
             href="/"
-            className="mt-4 inline-flex rounded-2xl bg-white px-5 py-3 font-semibold text-black transition hover:scale-[1.01]"
+            className="mt-4 inline-flex rounded-2xl bg-white px-5 py-3 font-semibold !text-black transition hover:scale-[1.01]"
           >
             Open live countdown
           </a>
