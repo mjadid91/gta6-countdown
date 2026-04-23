@@ -1,16 +1,15 @@
 {
-  "name": "GTA VI Countdown",
-  "short_name": "GTA VI",
-  "description": "A fan-made GTA VI countdown and content experience.",
+  "name": "GTA 6 Countdown",
+  "short_name": "GTA6",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#05010a",
   "theme_color": "#05010a",
   "icons": [
     {
-      "src": "/favicon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml"
+      "src": "/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
     }
   ]
 }
