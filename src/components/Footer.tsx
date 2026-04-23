@@ -33,6 +33,10 @@ export default function Footer() {
               Official Rockstar page
             </TrackedLink>
 
+            <a href="/gta-6-release-date" className="transition hover:text-white">
+              GTA 6 Release Date
+            </a>
+
             <a href="#news" className="transition hover:text-white">
               Latest updates
             </a>

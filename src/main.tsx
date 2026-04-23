@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import App from "./App";
 import Admin from "./pages/Admin";
 import AlertsSettings from "./pages/AlertsSettings";
+import GtaRelease from "./pages/GtaRelease";
 import NotFound from "./pages/NotFound";
 import "./index.css";
 
@@ -25,6 +26,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
         <Route path="/" element={<App />} />
         <Route path="/admin" element={<Admin />} />
         <Route path="/alerts" element={<AlertsSettings />} />
+        <Route path="/gta-6-release-date" element={<GtaRelease />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
