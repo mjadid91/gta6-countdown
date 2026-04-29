@@ -153,6 +153,12 @@ export default function Hero() {
                   Designed as a premium fan-made showcase focused on countdown,
                   atmosphere, updates, and product presentation.
                 </p>
+                <a
+                  href="/gta-6-release-date"
+                  className="text-white/70 hover:text-white"
+                >
+                  GTA 6 Release Date
+                </a>
               </div>
             </GlassCard>
           </motion.div>

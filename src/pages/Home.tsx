@@ -47,9 +47,16 @@ function SeoContentSection() {
         </p>
 
         <p>
-          Bookmark this page and come back regularly to follow the countdown to
-          GTA VI. Vice City is waiting.
+          Bookmark this page and come back regularly to follow the countdown
+          to GTA VI. Vice City is waiting.
         </p>
+
+        <a
+          href="/gta-6-release-date"
+          className="mt-6 inline-block text-blue-400 hover:underline"
+        >
+          👉 View GTA 6 release date details
+        </a>
       </div>
     </section>
   );
