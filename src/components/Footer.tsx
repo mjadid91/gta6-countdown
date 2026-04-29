@@ -44,6 +44,15 @@ export default function Footer() {
             <a href="#notify" className="transition hover:text-white">
               Join notify list
             </a>
+            <a href="/gta-6-release-date" className="transition hover:text-white">
+              GTA 6 Release Date
+            </a>
+            <a href="/gta-6-characters" className="transition hover:text-white">
+              GTA 6 Characters
+            </a>
+            <a href="/gta-6-map" className="transition hover:text-white">
+              GTA 6 Map
+            </a>
           </div>
         </div>
       </Container>
