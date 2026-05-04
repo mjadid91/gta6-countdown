@@ -51,12 +51,19 @@ function SeoContentSection() {
           to GTA VI. Vice City is waiting.
         </p>
 
-        <a
-          href="/gta-6-release-date"
-          className="mt-6 inline-block text-blue-400 hover:underline"
-        >
-          👉 View GTA 6 release date details
-        </a>
+        <div className="mt-6 flex flex-wrap gap-4 text-sm">
+          <a href="/gta-6-release-date" className="text-blue-400 hover:underline">
+            GTA 6 Release Date
+          </a>
+
+          <a href="/gta-6-characters" className="text-blue-400 hover:underline">
+            GTA 6 Characters
+          </a>
+
+          <a href="/gta-6-map" className="text-blue-400 hover:underline">
+            GTA 6 Map
+          </a>
+        </div>
       </div>
     </section>
   );

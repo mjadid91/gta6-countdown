@@ -2,43 +2,107 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicons.svg" />
-    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <!-- RESPONSIVE -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- TITLE -->
     <title>GTA 6 Countdown – Live Timer to Release (2026)</title>
 
-    <meta name="description" content="Live countdown to GTA 6 release. Track days, hours and get updates about Grand Theft Auto VI in Vice City.">
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="Live countdown to GTA 6 release. Track days, hours and get updates about Grand Theft Auto VI in Vice City."
+    />
 
-    <meta name="keywords" content="gta 6 countdown, gta vi countdown, gta 6 release date, gta 6 timer, gta 6 launch">
+    <meta
+      name="keywords"
+      content="gta 6 countdown, gta vi countdown, gta 6 release date, gta 6 timer, gta 6 launch, gta 6 map, gta 6 leak"
+    />
 
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="index, follow" />
 
-    <!-- Open Graph -->
-    <meta property="og:title" content="GTA 6 Countdown – Live Timer">
-    <meta property="og:description" content="Track the time left until GTA VI releases.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://gta6-countdown-beige.vercel.app">
-    <meta property="og:image" content="/preview.png">
+    <!-- CANONICAL -->
+    <link
+      rel="canonical"
+      href="https://gta6-countdown-beige.vercel.app/"
+    />
 
+    <!-- OPEN GRAPH (Facebook / Discord) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="GTA 6 Countdown – Live Timer" />
+    <meta
+      property="og:description"
+      content="Track the time left until GTA VI releases."
+    />
+    <meta
+      property="og:url"
+      content="https://gta6-countdown-beige.vercel.app/"
+    />
+    <meta
+      property="og:image"
+      content="https://gta6-countdown-beige.vercel.app/preview.png"
+    />
+
+    <!-- TWITTER -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="GTA VI Countdown — Fan-Made Launch Experience" />
+    <meta name="twitter:title" content="GTA VI Countdown — Fan Experience" />
     <meta
       name="twitter:description"
-      content="A fan-made GTA VI countdown and content experience featuring release info, updates, live stats, and a polished cinematic presentation."
+      content="Follow the GTA 6 countdown, updates and release info."
     />
-    <meta name="twitter:image" content="/og-cover.jpg" />
+    <meta
+      name="twitter:image"
+      content="https://gta6-countdown-beige.vercel.app/preview.png"
+    />
 
+    <!-- PWA (optionnel mais clean) -->
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "GTA 6 Countdown",
+        "url": "https://gta6-countdown-beige.vercel.app/",
+        "description": "Live countdown to GTA 6 release with updates, map information and fan-made alerts.",
+        "inLanguage": "en"
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "VideoGame",
+        "name": "Grand Theft Auto VI",
+        "alternateName": "GTA 6",
+        "genre": "Action-adventure",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Rockstar Games"
+        },
+        "gamePlatform": ["PlayStation 5", "Xbox Series X|S"],
+        "description": "Grand Theft Auto VI is an upcoming open-world game set in Vice City and Leonida."
+      }
+    </script>
+    
   </head>
 
   <body>
     <div id="root"></div>
+
+    <!-- APP -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

@@ -41,7 +41,10 @@ export default function Hero() {
               className="max-w-4xl font-display text-5xl uppercase leading-[0.94] tracking-tight sm:text-7xl lg:text-[6.4rem]"
             >
               <span className="bg-gradient-to-r from-pink-400 via-orange-200 to-cyan-300 bg-clip-text text-transparent">
-                {gta6Data.title}
+                GTA 6 Countdown
+              </span>
+              <span className="sr-only">
+                live timer to Grand Theft Auto VI release date
               </span>
             </motion.h1>
 

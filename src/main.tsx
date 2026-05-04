@@ -8,6 +8,7 @@ import GtaRelease from "./pages/GtaRelease";
 import NotFound from "./pages/NotFound";
 import "./index.css";
 import GtaMap from "./pages/GtaMap";
+import GtaCharacters from "./pages/GtaCharacters";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -28,6 +29,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
         <Route path="/admin" element={<Admin />} />
         <Route path="/alerts" element={<AlertsSettings />} />
         <Route path="/gta-6-release-date" element={<GtaRelease />} />
+        <Route path="/gta-6-characters" element={<GtaCharacters />} />
         <Route path="/gta-6-map" element={<GtaMap />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
