@@ -9,7 +9,7 @@ const serviceRoleKey =
   "";
 const resendApiKey = Deno.env.get("RESEND_API_KEY") ?? "";
 
-const siteUrl = "https://your-domain.com";
+const siteUrl = "https://gta6-countdown-beige.vercel.app";
 
 type EmailContent = {
   subject: string;
