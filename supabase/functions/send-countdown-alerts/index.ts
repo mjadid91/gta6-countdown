@@ -522,18 +522,16 @@ Deno.serve(async () => {
         status,
       });
 
-      if (resendResponse.ok) {
-        const nextDate = new Date();
-        nextDate.setDate(nextDate.getDate() + subscriber.cadence_days);
+      const nextDate = new Date();
+      nextDate.setDate(nextDate.getDate() + subscriber.cadence_days);
 
-        await supabase
-          .from("subscribers")
-          .update({
-            last_notification_at: new Date().toISOString(),
-            next_notification_at: nextDate.toISOString(),
-          })
-          .eq("id", subscriber.id);
-      }
+      await supabase
+        .from("subscribers")
+        .update({
+          last_notification_at: new Date().toISOString(),
+          next_notification_at: nextDate.toISOString(),
+        })
+        .eq("id", subscriber.id);
 
       results.push({
         email: subscriber.email,
